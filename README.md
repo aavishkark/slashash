@@ -2,7 +2,7 @@
 This app is about the task that was assigned me by Slashash as part of the hiring process.
 
 # Deployment
-[FrontEnd Deployed Link](https://glittery-yeot-d2f6ad.netlify.app/)
+[FrontEnd Deployed Link](https://vercel.com/aavishkark-gmailcom/slashash/FThBsVnHZo5bgytNS6xtXr7TBahJ)
 
 # TechStack
 
