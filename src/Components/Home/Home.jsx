@@ -31,7 +31,6 @@ const Home = () => {
     <div class="row">
         <div class="col-md-8 offset-md-2">
             <div class="search d-flex align-items-center justify-content-center">
-                <label for="search">Search</label>
                 <input type="text" class="form-control" id="search" value={search} onChange={(e) => { setSearch(e.target.value) }} placeholder="Search Quotes" />
                 <button onClick={handleSubmit} class="btn btn-light">Search</button>
             </div>

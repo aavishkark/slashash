@@ -4,13 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
+import FavContextProvider from './Components/Pages/FavContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <FavContextProvider>
     <BrowserRouter>
     <App />
     </BrowserRouter>
+    </FavContextProvider>
   </React.StrictMode>
 );
 
